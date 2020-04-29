@@ -68,7 +68,7 @@ const getDate = () => {
 };
 
 
-const getEmptyTables = _ => {
+const getEmptyTables = () => {
   let tables = totalTables.filter(table => table.isAvailable);
   return tables.length;
 };
@@ -78,8 +78,7 @@ const getEmptyTables = _ => {
 
   return (
     <div>
-      <h1>booking pag</h1>
-
+      <h1>booking page</h1>
     </div>
   )
 }
